@@ -250,6 +250,13 @@ body {
   .sign-in-container {
     display: none;
   }
+  .sign-in-content {
+    display: none;
+  }
+
+  .sign-in-instruction {
+    display: none;
+  }
   .yellow-circle {
     height: 400px;
     width: 400px;
@@ -381,7 +388,7 @@ body {
     margin-top: 10px;
   }
   .sign_in {
-    margin-left:10px;
-    color:#38af8b
+    margin-left: 10px;
+    color: #38af8b;
   }
 }
