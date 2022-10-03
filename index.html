@@ -3,6 +3,7 @@
 
 <head>
     <title>Registration form</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
     <link rel="stylesheet" href="/assets/css/form.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
 </head>
@@ -14,7 +15,7 @@
 
         <div class="card">
             <div class="sign-in-container">
-                <div class="sign-in-content">
+                <div class="sign-in-content" style=" padding-bottom: 40px;">
                     <div class="logo">
                         <img src="assets/images/logo.png" style="width:150px;" alt="example">
                     </div>
@@ -47,7 +48,11 @@
                             <form action="#">
                                 <div class="input-container">
                                     <i class="fa fa-user icon"></i>
-                                    <input class="input-field" type="text" placeholder="Name" name="name" required>
+                                    <input class="input-field" type="text" placeholder="First Name" name="first_name" required>
+                                </div>
+                                <div class="input-container">
+                                    <i class="fa fa-user icon"></i>
+                                    <input class="input-field" type="text" placeholder="Last Name" name="last_name" required>
                                 </div>
 
                                 <div class="input-container">
@@ -57,15 +62,18 @@
 
                                 <div class="input-container">
                                     <i class="fa fa-key icon"></i>
-                                    <input class="input-field" type="password" placeholder="Password" name="password" required>
+                                    <input class="input-field" type="password" placeholder="Password" name="password"
+                                        required>
                                 </div>
                                 <div class="input-container">
                                     <i class="fa fa-key icon"></i>
-                                    <input class="input-field" type="confirm_password" placeholder="Confirm Password" name="confirm_password" required>
+                                    <input class="input-field" type="confirm_password" placeholder="Confirm Password"
+                                        name="confirm_password" required>
                                 </div>
 
                                 <button type="submit" class="sign-up-btn">SIGN UP</button>
-                                <span class="account">Already have an account? <a href="#" class="sign_in">signin</a></span>
+                                <span class="account">Already have an account? <a href="#"
+                                        class="sign_in">signin</a></span>
                             </form>
 
                         </div>
